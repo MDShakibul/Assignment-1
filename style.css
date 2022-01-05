@@ -1,0 +1,101 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+/* span {
+  height: 100px;
+  width: 5px;
+  background-color: #fecc01;
+  border-radius: 99px;
+  margin: 0 20px;
+}
+ */
+.top {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.top-section1 {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.top-section2 {
+  width: 100%;
+  padding-left: 15%;
+}
+
+.mission-part {
+  display: flex;
+}
+
+.mission-picture-size {
+  height: 150px;
+  width: 150px;
+}
+
+.midle-section1 {
+  width: 25%;
+  background-color: #edf5f6;
+  margin-right: 20px;
+  margin-left: 10%;
+  padding: 30px 10px 30px 30px;
+  border-radius: 10%;
+}
+.midle-section2 {
+  width: 25%;
+  background-color: #ffeeee;
+  margin-right: 25px;
+  padding: 30px 10px 30px 30px;
+  border-radius: 10%;
+}
+.midle-section3 {
+  width: 25%;
+  background-color: #fff4d6;
+  padding: 30px 10px 30px 30px;
+  border-radius: 10%;
+}
+
+.last-section {
+  display: flex;
+  margin-top: 5%;
+}
+
+.develop-image {
+  width: 50%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.develop-write {
+  padding-top: 5%;
+  width: 100%;
+  padding-right: 10%;
+}
+.global-community-write {
+  padding-top: 5%;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.global-community-image {
+  width: 50%;
+  padding-right: 10%;
+}
+
+label {
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5959;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
