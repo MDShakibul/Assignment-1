@@ -1,5 +1,7 @@
 body {
   font-family: "Playfair Display", serif;
+  padding: 0;
+  margin: 0;
 }
 /* span {
   height: 100px;
@@ -65,6 +67,13 @@ h1 {
   margin-top: 5%;
 }
 
+.last-section-develop-background{
+    background-image: url(frontend/shape-1.png);
+    background-repeat: no-repeat;
+    padding: px;
+    background-origin: content-box;
+}
+
 .develop-image {
   width: 50%;
   margin-left: 10%;
@@ -88,14 +97,22 @@ h1 {
   padding-right: 10%;
 }
 
-label {
-}
-
 .link {
   text-decoration: none;
   color: white;
   background-color: #ff5959;
   padding: 10px 20px;
-  margin: 10px 0px;
   border-radius: 5px;
+}
+
+p{
+    margin-bottom: 5%;
+}
+
+footer{
+    /* position: relative;
+  background-color: black;
+  color: white;
+  text-align: center; */
+  
 }
