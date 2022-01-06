@@ -2,6 +2,7 @@ body {
   font-family: "Playfair Display", serif;
   padding: 0;
   margin: 0;
+  height: 100%;
 }
 /* span {
   height: 100px;
@@ -11,6 +12,23 @@ body {
   margin: 0 20px;
 }
  */
+
+.vertical-line {
+  border-left: 6px solid #b7626a;
+  height: 150px;
+  margin-top: 12%;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.stay-focus {
+  display: flex;
+}
+
+.body-wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
 .top {
   display: flex;
   align-items: center;
@@ -19,6 +37,14 @@ body {
 h1 {
   font-size: 50px;
   font-weight: 600;
+}
+
+.text {
+  text-align: center;
+}
+
+.orange-color {
+  color: #ffad5a;
 }
 
 .top-section1 {
@@ -33,6 +59,11 @@ h1 {
 
 .mission-part {
   display: flex;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .mission-picture-size {
@@ -67,11 +98,21 @@ h1 {
   margin-top: 5%;
 }
 
-.last-section-develop-background{
-    background-image: url(frontend/shape-1.png);
-    background-repeat: no-repeat;
-    padding: px;
-    background-origin: content-box;
+.last-section-develop-background {
+  background-image: url(frontend/shape-1.png);
+  background-repeat: no-repeat;
+  background-position-x: 5%;
+  background-position-y: 75px;
+}
+
+.last-section-Global-background {
+  background-image: url(frontend/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: bottom right 70px;
+}
+
+#area {
+  padding-bottom: 5%;
 }
 
 .develop-image {
@@ -81,12 +122,12 @@ h1 {
 }
 
 .develop-write {
-  padding-top: 5%;
+  padding-top: 3%;
   width: 100%;
   padding-right: 10%;
 }
 .global-community-write {
-  padding-top: 5%;
+  padding-top: 3%;
   width: 100%;
   margin-left: 10%;
   margin-right: 5%;
@@ -105,14 +146,54 @@ h1 {
   border-radius: 5px;
 }
 
-p{
-    margin-bottom: 5%;
+p {
+  margin-bottom: 5%;
+}
+.email-section {
+  margin-top: 5%;
 }
 
-footer{
-    /* position: relative;
-  background-color: black;
-  color: white;
-  text-align: center; */
-  
+h3 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.input_area {
+  width: 712px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.text_area_input {
+  width: 712px;
+}
+
+.btn-send {
+  background-color: #ff5959;
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  width: 100px;
+  border-radius: 5px;
+  float: right;
+  cursor: pointer;
+}
+
+.btn-send:hover {
+  background-color: brown;
+  color: #edf5f6;
+}
+
+footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
+  background-color: #D0DAEE;
 }
